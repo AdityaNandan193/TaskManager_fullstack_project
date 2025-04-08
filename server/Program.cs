@@ -9,7 +9,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
-        policy.WithOrigins("https://task-manager-frontend-bay-seven.vercel.app")
+        policy.WithOrigins("https://task-manager-frontend-dtfm.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod());
 });
